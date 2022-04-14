@@ -49,13 +49,13 @@ header {
 }
 
 .main-text-body div {
-  padding: 5px 70px;
+  padding: 0px 50px;
   display: grid;
   grid-template-columns: 33% 33% 33%;
 }
 
 .main-text-body div p {
-  padding: 0 20px;
+  padding: 0px 20px;
 }
 
 .bot-bar {
