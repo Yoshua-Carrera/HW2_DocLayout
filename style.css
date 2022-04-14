@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+}
+
+.top-bar {
+  width: 100vw;
+  background-color: black;
+}
+
+.top-bar .menu {
+  padding-left: 50px;
+  list-style-type: none;
+}
+
+.top-bar .menu li {
+  padding-left: 20px;
+  display: inline;
+  line-height: 40px;
+}
+
+.summary {
+  padding: 40px 0 40px 70px;
+  background-color: #c6bfbf;
+}
+.summary h1 {
+  padding: 30px 0;
+  background-color: #c6bfbf;
+}
+
+.summary a {
+  color: blue;
+}
+
+.main-text-body {
+  width: 100vw;
+}
+
+.main-text-body div {
+  padding: 5px 70px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.main-text-body div p {
+  padding: 0 20px;
+}
+
+.bot-bar {
+  background-color: #0b4d14;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bot-bar .bot-menu {
+  padding-left: 50px;
+  list-style-type: none;
+}
+
+.bot-bar .bot-menu li {
+  padding-left: 20px;
+  display: inline;
+  line-height: 40px;
+}
+
+.bot-bar .bot-socials {
+  padding-right: 50px;
+  list-style-type: none;
+}
+
+.bot-bar .bot-socials li {
+  padding-right: 20px;
+  display: inline;
+  line-height: 40px;
+}
